@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #F6B900;
+    border-radius: 0px;
+    color: #fff;
+    margin-bottom: -30px;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-text{
+    margin-right: 20px;
+    color: #000;
+}

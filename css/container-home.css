@@ -1,0 +1,16 @@
+.ud-about {
+    background-image: url(../assets/bg.png);
+    padding-top: 100px;
+    margin-top: 45vh;
+    height: 100vh;
+  }
+.center-block{
+    text-align: center;
+    width:90%;
+    height:30vh;
+    background-color:#fff;
+    margin-top: -30vh;
+}
+.box-text{
+    
+}

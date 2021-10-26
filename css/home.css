@@ -1,0 +1,32 @@
+body {
+    background-image: url(../assets/img_topo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
+    
+
+  }
+  
+  .ud-home {
+    background: transparent;
+    padding-top: 18px;
+    margin-top: 15vh;
+  }
+  .ud-home-desc , .ud-home-title {
+      color: #fff;
+  }
+  .ud-home-desc{
+      font-size: 3vh;
+  }
+  .ud-home-title{
+      font-size: 70px;
+  }
+  
+  /* For mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      background-image: url(../assets/img-topo-mobile.png);
+    }
+      }
