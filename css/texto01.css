@@ -1,0 +1,23 @@
+.texto01-title{
+    color: #F6B900;
+}
+
+.texto01-content{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    .texto01-title{
+        font-size: 20px;
+    }
+    
+    .texto01-content{
+        
+        font-size: 15px;
+    }
+    ul{
+        margin-left: -30px;
+    }
+  }

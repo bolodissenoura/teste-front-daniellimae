@@ -1,0 +1,12 @@
+@font-face {
+	font-family: Lato-Black;
+	src: local(Lato-Black), url(../fonts/Lato-Black.ttf)
+}
+@font-face {
+	font-family: Lato-Light;
+	src: local(Lato-Light), url(../fonts/Lato-Light.ttf)
+}
+@font-face {
+	font-family: Lato-Regular;
+	src: local(Lato-Regular), url(../fonts/Lato-Regular.ttf)
+}

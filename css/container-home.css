@@ -7,10 +7,25 @@
 .center-block{
     text-align: center;
     width:90%;
-    height:30vh;
+    height:auto;
     background-color:#fff;
+    box-shadow: 3px 3px 5px #000;
     margin-top: -30vh;
 }
+.box-title{
+  font-size: 30px;
+}
 .box-text{
-    
+  font-size: 20px;
+}
+
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .box-title{
+    font-size: 20px;
+  }
+  .box-text{
+    font-size: 10px;
+  }
 }
