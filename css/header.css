@@ -11,3 +11,11 @@
     margin-right: 20px;
     color: #000;
 }
+
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    .nav-text-sobra {
+        display: none;
+    }
+}
