@@ -39,9 +39,21 @@
                 <p class="ud-home-desc">
                    01.
                   </p>
-                <h1 class="ud-home-title">
-                 Maecenas <br/> at hendrerit.
-                </h1>
+                
+                
+                  <h1 class="ml1">
+                    <span class="text-wrapper">
+                      <span class="line line1"></span>
+                      <div class="yellow-bg">
+                      <span class="letters">Maecenas</br></span>
+                    </div>
+                    <div class="yellow-bg" style="margin-top: 10px;">
+                      <span class="letters">at hendrerit. <span>
+                    </div>
+                      <span class="line line2"></span>
+                    </span>
+                  </h1>
+                </div>
                 <p class="ud-home-desc">
                     Nulla finibus odio, at rutrum velit consequat lorem, </br>
                     elementum eget odio id, iaculis molestie nibh. Sed auctor, </br>
@@ -117,7 +129,7 @@
       <!-- Cards Section Start  -->
       <section id="cards" class="ud-card">
           <div class="container" id="card-container">
-            <div class="row icon-boxes justify-content-md-center">
+            <div class="row icon-boxes justify-content-md-center ml16">
                 <div class="col-md-4 text-center " data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box card">
                     <div class="icon"><i class="ri-stack-line"></i></div>
@@ -159,6 +171,38 @@
  
 
 <!-- Bootstrap Section Começo -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script>
+    
+ // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml1 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 7000,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script  src="./js/bootstrap.min.js"></script>
 <!-- Bootstrap Section Final -->
