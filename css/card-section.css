@@ -1,0 +1,29 @@
+.ud-card{
+    background-color: #D8D8D8;
+    height: auto;
+    
+    
+}
+#card-margin{
+    margin-bottom: 15vh;
+}
+.icon-boxes{
+    margin-left: 15px;
+}
+.icon-box{
+    margin-top: 100px;
+}
+.card-title{
+    color: #F6B900;
+    font-size: 30px;
+}
+.description{
+    color: #000;
+    font-size: 20px;
+}
+.card{
+    box-shadow: 0 0 5px rgb(97, 96, 96);
+    background-color: #fff;
+    border-radius: 20px;
+    width: 300px;
+}

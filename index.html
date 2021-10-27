@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="./css/bootstrap.min.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/card-section.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="./css/header.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="./css/home.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="./css/container-home.css"  crossorigin="anonymous">
     <link rel="stylesheet" href="./css/texto01.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/footer.css"  crossorigin="anonymous">
     <!-- Primary Meta Tags -->
     <meta name="title" content="Teste Frontend">
     <meta name="description" content="Um teste de HTML e Bootstrap , feito por daniellimae.">
@@ -55,8 +57,9 @@
         </div>
       </section>
     
-      <!-- ====== Box01 Start ====== -->
+      
     <section id="about" class="ud-about">
+        <!-- ====== Box01 Start ====== -->
         <div class="container">
             <div class="row">
                 <div class="center-block" >
@@ -94,7 +97,7 @@
                     <p class="texto01-content">
                         Integer et felis nec libero molestie blandit nec id </br>
                         nunc. Mauris auctor eu lacus at varius.</br>
-                        <ul class="texto01-content">
+                        <ul class="texto01-content" id="card-margin">
                            <li>Donec feugiat velit eu est rutrumid </li>
                            <li>Congue nulla facilisis, praesent venenatis </li>
                            <li>At dui eget vehicula. </li>
@@ -108,6 +111,50 @@
             </div>
         </div>
         <!-- Texto01 End -->
+      </section>
+
+
+      <!-- Cards Section Start  -->
+      <section id="cards" class="ud-card">
+          <div class="container" id="card-container">
+            <div class="row icon-boxes justify-content-md-center">
+                <div class="col-md-4 text-center " data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-box card">
+                    <div class="icon"><i class="ri-stack-line"></i></div>
+                    </br><h4 class="card-title">Lorem ipsum sit</br> ammet</h4></br>
+                    <img src="./assets/icon cone.png" alt=""> </br></br>
+                    <p class="description">Morbi porta, diam ornare </br> sodales aliquam, nulla </br> felis commodo dui.</p></br>
+                </div>
+                </div>
+                <div class="col-md-4 text-center " data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box card">
+                    <div class="icon"><i class="ri-stack-line"></i></div>
+                    </br><h4 class="card-title">Lorem ipsum sit</br> ammet</h4></br>
+                    <img src="./assets/icon cone.png" alt=""> </br></br>
+                    <p class="description">Morbi porta, diam ornare </br> sodales aliquam, nulla </br> felis commodo dui.</p></br>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center " id="card-margin" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box card">
+                    <div class="icon"><i class="ri-stack-line"></i></div>
+                    </br><h4 class="card-title">Lorem ipsum sit</br> ammet</h4></br>
+                    <img src="./assets/icon cone.png" alt=""> </br></br>
+                    <p class="description">Morbi porta, diam ornare </br> sodales aliquam, nulla </br> felis commodo dui.</p></br>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Cards Section End  -->
+
+      <section class="">
+        <!-- Footer -->
+        <footer class="text-center ">
+          <div class="container p-4 pb-0">
+              <h1 class="text-footer">Obrigado!</h1>
+          </div>
+        </footer>
+        <!-- Footer -->
       </section>
  
 

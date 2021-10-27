@@ -25,6 +25,7 @@ body {
       font-family: Lato-Regular;
   }
   
+  
   /* For mobile devices */
   @media only screen and (max-width: 767px) {
     body {

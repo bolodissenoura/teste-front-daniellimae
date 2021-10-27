@@ -2,7 +2,7 @@
     background-image: url(../assets/bg.png);
     padding-top: 100px;
     margin-top: 45vh;
-    height: 100vh;
+    height: auto;
   }
 .center-block{
     text-align: center;
